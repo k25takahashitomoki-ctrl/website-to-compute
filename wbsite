@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>7ボタンカウンター</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>7ボタンカウンター</h1>
+            <p>各ボタンを押してカウントを増やそう！</p>
+        </header>
+
+        <main>
+            <div class="counters-grid">
+                <div class="counter-item" data-counter="1">
+                    <div class="counter-display">
+                        <span class="counter-number" id="count-1">0</span>
+                        <span class="counter-label">ボタン1</span>
+                    </div>
+                    <button class="count-button" data-target="count-1">
+                        クリック
+                    </button>
+                </div>
+
+                <div class="counter-item" data-counter="2">
+                    <div class="counter-display">
+                        <span class="counter-number" id="count-2">0</span>
+                        <span class="counter-label">ボタン2</span>
+                    </div>
+                    <button class="count-button" data-target="count-2">
+                        クリック
+                    </button>
+                </div>
+
+                <div class="counter-item" data-counter="3">
+                    <div class="counter-display">
+                        <span class="counter-number" id="count-3">0</span>
+                        <span class="counter-label">ボタン3</span>
+                    </div>
+                    <button class="count-button" data-target="count-3">
+                        クリック
+                    </button>
+                </div>
+
+                <div class="counter-item" data-counter="4">
+                    <div class="counter-display">
+                        <span class="counter-number" id="count-4">0</span>
+                        <span class="counter-label">ボタン4</span>
+                    </div>
+                    <button class="count-button" data-target="count-4">
+                        クリック
+                    </button>
+                </div>
+
+                <div class="counter-item" data-counter="5">
+                    <div class="counter-display">
+                        <span class="counter-number" id="count-5">0</span>
+                        <span class="counter-label">ボタン5</span>
+                    </div>
+                    <button class="count-button" data-target="count-5">
+                        クリック
+                    </button>
+                </div>
+
+                <div class="counter-item" data-counter="6">
+                    <div class="counter-display">
+                        <span class="counter-number" id="count-6">0</span>
+                        <span class="counter-label">ボタン6</span>
+                    </div>
+                    <button class="count-button" data-target="count-6">
+                        クリック
+                    </button>
+                </div>
+
+                <div class="counter-item" data-counter="7">
+                    <div class="counter-display">
+                        <span class="counter-number" id="count-7">0</span>
+                        <span class="counter-label">ボタン7</span>
+                    </div>
+                    <button class="count-button" data-target="count-7">
+                        クリック
+                    </button>
+                </div>
+            </div>
+
+            <div class="total-section">
+                <div class="total-counter">
+                    <span class="total-label">合計カウント</span>
+                    <span class="total-number" id="total-count">0</span>
+                </div>
+                <button class="reset-button" id="reset-all">
+                    すべてリセット
+                </button>
+            </div>
+        </main>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
